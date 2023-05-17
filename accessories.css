@@ -1,0 +1,500 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+/* Color Variables */
+:root {
+  --white: #fff;
+  --black: #222;
+  --green: #6cbe02;
+  --grey1: #f0f0f0;
+  --grey2: #e9d7d3;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  background-color: black;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+li {
+  list-style: none;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: large;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.h1{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.design{
+    color:black;
+    text-align: center;
+    background-color: #6cbe02;
+
+}
+/* 
+=================
+Header
+=================
+*/
+.top-nav {
+  background-color: var(--green);
+  font-size: 1.3rem;
+  color:black;
+}
+
+.top-nav div {
+  justify-content: space-between;
+  height: 4.5rem;
+}
+/*=================
+ABOUT
+===================
+*/
+.about{
+    color: white;
+    text-align: center;
+    font-size: smaller;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.line{
+    color: var(--green);
+    font-size: 2em;
+
+}
+.about-2{
+    color: white;
+    text-align: center;
+    font-size: smaller;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.line2{
+    color: var(--green);
+    font-size: 2em;
+}
+.image1{
+    position: absolute;
+    left:5%;
+}
+.image2{
+    position: absolute;
+    left:40%;
+}
+.image3{
+    position: absolute;
+    left:75%;
+}
+.heading{
+    color: white;
+    text-align: center;
+    font-size: smaller;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.heading1{
+    color:white;
+    text-align:center;
+}
+.name{
+    position: absolute;
+    top:45%;
+    left:5%;
+}
+.email{
+    position: absolute;
+    top:55%;
+    left:5%;
+}
+.state{
+    position: absolute;
+    top:65%;
+    left: 5%;
+}
+.phone{
+    position: absolute;
+    top:75%;
+    left: 5%;
+}
+.city{
+    position: absolute;
+    top:45%;
+    left:40%;
+}
+.reason{
+    position: absolute;
+    top:55%;
+    left:40%;
+}
+.message{
+    position: absolute;
+    top:65%;
+    left:40%;
+}
+.submit{
+    position: absolute;
+    top:85%;
+    left:30%;
+}
+.reset{
+    position: absolute;
+    top:85%;
+    left:40%;
+}
+.contactimage{
+    opacity: 50%;
+    position: absolute;
+    top:40%;
+    left:65%;
+}
+.details{
+    color: white;
+    position: absolute;
+    left:69.5%;
+    top:45%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.detail1{
+    color: white;
+    position: absolute;
+    left:68%;
+    top:59%;
+}
+.detail2{
+    color: white;
+    position: absolute;
+    left:71%;
+    top:82%;
+}
+.img1{
+    position: absolute;
+    top:12%;
+    left:28%;
+}
+.img2{
+    position: absolute;
+    top:101%;
+    left:28%;
+    opacity: 80%;
+}
+.img3{
+    position: absolute;
+    top:118%;
+    left:35%;
+    opacity: 80%;
+}
+.text3-tit{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:120%;
+    left:41.5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.text3{
+    color: white;
+    position: absolute;
+    top:130%;
+    left:36.5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-small;
+}
+.img4{
+    position: absolute;
+    top:190%;
+    left:28%;
+}
+.img5{
+    position: absolute;
+    top:280%;
+    left:28%;
+}
+.img6{
+    position: absolute;
+    top:350%;
+    left:28%;
+}
+.img7{
+    position: absolute;
+    top:440%;
+    left:28%;
+}
+.photo{
+    position: absolute;
+    top:35%;
+}
+.head300{
+    color: white;
+    text-align: center;
+}
+.feat300{
+    color: white;
+    position: absolute;
+    top:22%;
+    left:55%;
+}
+.feat1-300{
+    color: white;
+    position: absolute;
+    top:30%;
+    left:56%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pri300{
+    color: white;
+    position: absolute;
+    top:100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.photo1{
+    position: absolute;
+    top:150%;
+}
+.head400{
+    color: white;
+    position: absolute;
+    top:130%;
+    left:43%;
+}
+.feat400{
+    color: white;
+    position: absolute;
+    top:150%;
+    left:57%;
+}
+.feat1-400{
+    color: white;
+    position: absolute;
+    top:160%;
+    left:56%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pri400{
+    color: white;
+    position: absolute;
+    top:210%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.photo2{
+    position: absolute;
+    top:250%;
+}
+
+.head650{
+    color: white;
+    position: absolute;
+    top:230%;
+    left:43%;
+}
+.feat650{
+    color: white;
+    position: absolute;
+    top:250%;
+    left:57%;
+}
+.feat1-650{
+    color: white;
+    position: absolute;
+    top:265%;
+    left:56%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pri650{
+    color: white;
+    position: absolute;
+    top:320%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.photo3{
+    position: absolute;
+    top:400%;
+}
+
+.head10R{
+    color: white;
+    position: absolute;
+    top:350%;
+    left:43%;
+}
+.feat10R{
+    color: white;
+    position: absolute;
+    top:370%;
+    left:57%;
+}
+.feat1-10R{
+    color: white;
+    position: absolute;
+    top:383%;
+    left:56%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pri10R{
+    color: white;
+    position: absolute;
+    top:480%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.a-photo{
+    position: absolute;
+    top:20%;
+    left:10%;
+}
+.a-head{
+    color: white;
+    position: absolute;
+    top:15%;
+    left:55%;
+}
+.a-cont{
+    color: white;
+    position: absolute;
+    top:30%;
+    left:45%;
+}
+.a-pric{
+    color: white;
+    position: absolute;
+    top:58%;
+    left:45%;
+}
+.a-photo1{
+    position: absolute;
+    top:85%;
+    left:12%;
+}
+
+.a-head1{
+    color: white;
+    position: absolute;
+    top:82%;
+    left:55%;
+}
+.a-cont1{
+    color: white;
+    position: absolute;
+    top:100%;
+    left:45%;
+}
+.a-price1{
+    color: white;
+    position: absolute;
+    top:125%;
+    left:45%;
+}
+.a-photo2{
+    position: absolute;
+    top: 160%;
+    left:12%;
+}
+.a-head2{
+    color: white;
+    position: absolute;
+    top:160%;
+    left:45%;
+}
+.a-price2{
+    color: white;
+    position: absolute;
+    top:190%;
+    left:45%;
+}
+.a-photo3{
+    position: absolute;
+    top:230%;
+    left:12%;
+}
+.a-head3{
+    color: white;
+    position: absolute;
+    top:230%;
+    left:39%;
+}
+.a-price3{
+    color: white;
+    position: absolute;
+    top:260%;
+    left:45%;
+}
+.p-photo{
+    position: absolute;
+    top:20%;
+    left:15%;
+}
+.p-head{
+    color: white;
+    position: absolute;
+    top:15%;
+    left:68%;
+}
+.p-price{
+    color:white;
+    position: absolute;
+    top:40%;
+    left:70%;
+}
+.p-photo1{
+    position: absolute;
+    top:80%;
+    left:10%;
+}
+.p-head1{
+    color: white;
+    position: absolute;
+    top:80%;
+    left:65%;
+}
+.p-price1{
+    color: white;
+    position: absolute;
+    top:110%;
+    left:70%;
+}.p-photo2{
+    position: absolute;
+    top:160%;
+    left:18%;
+}
+.p-head2{
+    color: white;
+    position: absolute;
+    top:160%;
+    left:60%;
+}
+.p-price2{
+    color: white;
+    position: absolute;
+    top:185%;
+    left:65%;
+}
+.p-photo3{
+    position: absolute;
+    top:235%;
+    left:18%;
+}
+.p-head3{
+    color: white;
+    position: absolute;
+    top:235%;
+    left:65%;
+}
+.p-price3{
+    color: white;
+    position: absolute;
+    top:265%;
+    left:67%;
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+:root{
+    --blue:#6cbe02;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all .2s cubic-bezier(.37,1.14,.26,1.24);
+}
+.navigation{
+    position: absolute;
+    left:20%;
+}
+.form-container{
+    position: absolute;
+    left:75%;
+    top:18%;
+}
+.logo{
+    position: absolute;
+    top:10%;
+    left:2%;
+}
+.newsletter{
+    background:linear-gradient(var(--blue),var(--blue)), url(deal1.jpg) no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding:4rem 1rem;
+    text-align: center;
+}
+
+.newsletter h1{
+    color:#fff;
+    font-size: 4rem;
+}
+
+.newsletter p{
+    color:#fff;
+    font-size: 2rem;
+    padding:1rem 0;
+}
+
+.newsletter form{
+    height:5.5rem;
+    max-width: 60rem;
+    margin:0 auto;
+    padding:0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5rem;
+    background:rgba(0,0,0,.3);
+}
+
+.newsletter form input[type="email"]{
+    height: 100%;
+    width: 80%;
+    padding:0 1rem;
+    outline: none;
+    border:none;
+    background:none;
+    font-size: 2rem;
+    color:#fff;
+}
+
+.newsletter form input[type="submit"]{
+    border-radius: 5rem;
+}
